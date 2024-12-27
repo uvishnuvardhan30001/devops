@@ -1,0 +1,265 @@
+DBMS-----> 36
+DDAI-----> 43
+MP-------> 50
+ASE------> 43.5
+
+MID 2
+
+DBMS-----> 18
+DDAI-----> 35
+MP-------> 39  
+ASE------> 45
+
+
+INTERNALS :
+DDAI - 52.32--->53  
+DBMS - 46.97--->47
+ASE  - 55.22--->56
+MP   - 57.14--->58
+PFSD - 52.40--->53
+PSRS - 42.8---->43
+SIL  - 57.84--->58
+
+Even Sem :
+
+PSQT ----> 44.5             
+NPS  ----> 36		    
+AOOP ----> 36 
+OS   ----> 40  
+ATFL ----> 44
+
+
+
+
+
+
+
+
+
+https://drive.google.com/drive/folders/1wfNTKinBAV6CCxaI5lfSnnRFAYpy0uEl
+
+
+
+
+
+
+
+
+
+https://www.credly.com/badges/dc63824f-a1ac-4c1c-950e-b36562f212dc/public_url
+
+
+https://www.credly.com/badges/c7a44a30-d65a-4f81-bbe9-101ee43453a6/public_url
+
+
+https://www.credly.com/badges/4983345e-b44f-4856-8095-08dd58e7cf90/public_url
+
+
+https://www.credly.com/badges/a501b4e3-9e13-43cc-95e8-d84c3bc27f8b/public_url
+
+
+STU64dc72febd7401692168958
+
+476b8f88bd9c819b9959eb3f7508c005
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+#
+# Complete the 'getLargestNumber' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts STRING num as parameter.
+#
+
+def getLargestNumber(num):
+    num_list=list(map(int,num))
+    n=len(num_list)
+    changed=True
+    
+    
+    while changed:
+        changed=False
+        for i in range(n-1):
+            if num_list[i] % 2 == num_list[i+1] % 2:
+                if num_list[i]<num_list[i+1]:
+                    num_list[i],num_list[i+1]=num_list[i+1],num_list[i]
+                    changed=True
+    return ''.join(map(str,num_list))
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    num = input()
+
+    result = getLargestNumber(num)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
+
+
+JPA
+
+Programming with C :
+
+- Introduction
+	- Features of C language
+	- How to execute a basic c program on windows & Linux platform
+	- What is Algorithm program Flow chart 
+- Basics of C
+	- Character set
+	- C tokens
+	- Qualifiers
+- Basic input and output functions
+- Control Structures
+- Scope and extent of a variable
+- Functions
+- Arrays
+- Structurers
+- Arrays
+- Files
+
+
+
+
+
+
+
+
+
+
+
+StudentManager.java
+
+public String saveStudent(Student s) throws Exception
+{
+	con = DriverManager.getConnection("jdbc:mysql://localhost::3306/bobby","root","root");
+	ps  = con.preparedStatement("insert into student value(?,?,?,?)");
+	ps.setInt(1,s.getRollno());
+	ps.setString(2,s.getName());
+	ps.setInt(3,s.getAge());
+	ps.setDouble(4,getCgpa());
+	ps.execute();
+	con.close();
+	return "Inserted";
+}
+
+
+Create (add.jsp)
+
+<body>
+	<form action="InsertStudent" method="get">
+		Roll No: <input type="text" name="rollno" /><br>
+		Name   : <input type="text" name="name" /><br>
+		AGE    : <input type="text" name="age"/><br>
+		CGPA   : <input type="text" name="cgpa"/><br>
+			 <input type="submit" value="Insert"/>
+	</form>
+
+</body>
+
+com.controller (InsertStudent)
+
+-> Remove all commented lines and write the code in doGet method
+
+response.setContentType("Text/html");
+printwriter pw = responce.getWriter();
+StudentManager sm = new StudentManage();
+Student S = new Student();
+try
+{
+	s.setRollno(Integer.ParsInt(request.getParameter("rollno")));
+	s.setName(request.getParameter("name"));
+	s.setAge(Integer.parseInt(request.getParameter("age")));
+	s.setCgpa(Double.parseDouble(request.getDouble("cgpa")));
+
+	String ack = sm.saveStudent(s);
+	pw.print(ack);
+}
+catch(Exception E)
+{
+	sysout(e);
+}
+
+SVV Home assignments:
+
+
+CO-1:
+
+1. explain the different testing objectives and goals for a goal of software application
+2. write down the diff b/w validation and verification
+3. how review meetings will increase the effectiveness of software PRODECTS 
+4. write the process of testing for the development life cycle 
+5. explain the principles of risk based testing and how it influences the testing planning 
+
+CO-2
+
+1. identify the diff categories of structural testing with suitable examples
+2. write the advantages and disadvantages of automated regression testing
+3. discuss the importance of testcases in software testing, how does the quality of test data impact the effectiveness of testing 
+4. Identify the effectiveness of static and dynamic testing in a specific software development project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Respected Sir,
+I UPPULURI VISHNU VARDHAN 2200030001 due to on going floods there is no transportation available from my village Partiala which is located 40 kms from our college My kl bus route is 7A which is now the flooded area as the information from our bus drivers there is no transportation for 6&7 Route so i cannot  attend tomorrow's exam Data Analysis & Visualization 22CS2227F kindly permit me for remedial
+
+
+
+
+
+
+
+
+
+
+
+
